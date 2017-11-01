@@ -8,11 +8,7 @@
     "type": "git",
     "url": "git+https://github.com/julianxhokaxhiu/gitbook-plugin-summary.git"
   },
-  "keywords": [
-    "gitbook",
-    "gitbook-plugin",
-    "gitbook-summary"
-  ],
+  "keywords": ["gitbook", "gitbook-plugin", "gitbook-summary"],
   "author": {
     "name": "Julian Xhokaxhiu",
     "email": "",
@@ -22,12 +18,24 @@
   "bugs": {
     "url": "https://github.com/julianxhokaxhiu/gitbook-plugin-summary/issues"
   },
-  "homepage": "https://github.com/julianxhokaxhiu/gitbook-plugin-summary#readme",
+  "homepage":
+    "https://github.com/julianxhokaxhiu/gitbook-plugin-summary#readme",
   "engines": {
     "gitbook": ">=3.2.3"
   },
   "dependencies": {
+    "async-q": "^0.3.1",
+    "directory-tree": "^2.0.0",
+    "escape-string-regexp": "^1.0.5",
     "glob": "^7.1.2",
-    "markdown-parser": "0.0.8"
+    "markdown-parser": "0.0.8",
+    "ramda": "^0.25.0"
+  },
+  "gitbook": {
+    "properties": {
+      "excludedPatterns": {
+        "type": "array"
+      }
+    }
   }
 }
